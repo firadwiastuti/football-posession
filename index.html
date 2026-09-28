@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Football Possession Tracker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Football Possession Tracker</h1>
+        <h2>Team A Vs Team B</h2>
+            <div> 
+                <p>Macth Time</p>
+                <h2 id="matchTime">00:00</h2>
+            </div>
+            <div>
+                <h3>Team A</h3>
+                <p>Possession: <span id="teamApossesssion">0%</span> </p>
+                <p>Time: <span id="teamATime">00:00</span></p>
+                <button onclick="changeTeam('A')">Team A</button>
+            </div>
+            <div>
+                <h3>Team B</h3>
+                <p>Possession: <span id="teamBpossesssion">0%</span> </p>
+                <p>Time: <span id="teamBTime">00:00</span></p>
+                <button onclick="changeTeam('B')">Team B</button>
+            </div>
+
+            <br>
+
+            <button onclick="startTimer()">START</button>
+            <button onclick="pauseTimer()">PAUSE</button>
+            <button onclick="resetTimer()">RESET</button>
+
+            <script src="script.js"></script>
+    </body>
+</html>

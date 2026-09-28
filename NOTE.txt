@@ -1,0 +1,6 @@
+mau ditambahin  :
+
+* space = START/PAUSE
+* <- = Team A
+* -> = Team B
+* Added time
